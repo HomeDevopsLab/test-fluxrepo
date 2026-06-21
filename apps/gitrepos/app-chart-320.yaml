@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: appchart-320
+  namespace: default
+spec:
+  interval: 1m
+  url: https://github.com/HomeDevopsLab/appchart
+  ref:
+    tag: "3.2.0"
+
