@@ -18,7 +18,7 @@ spec:
     image:
       imagePolicy: false
       repository: ghcr.io/zatto-dev/shy-garlic
-      tag: 0.14.0
+      tag: 0.16.0
     env:
       - name: SHYG_CONFIG
         value: /etc/shygarlic/shygarlic.yaml
